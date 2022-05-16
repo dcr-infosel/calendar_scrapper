@@ -1,0 +1,18 @@
+curl 'https://www.inegi.org.mx/app/saladeprensa/calendario/SalaPrensaWS.asmx/ObtenerFechasTabla' \
+  -H 'Accept: */*' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'Cookie: _ga=GA1.3.180974600.1648489455; NSC_MC_OvfwpQpsubm=ffffffff0991142a45525d5f4f58455e445a4a423660; _gid=GA1.3.728890873.1649831742' \
+  -H 'Origin: https://www.inegi.org.mx' \
+  -H 'Referer: https://www.inegi.org.mx/app/saladeprensa/calendario/default.html' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36' \
+  -H 'X-Requested-With: XMLHttpRequest' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  --data-raw 'fechaDesde=2022-01-01&fechaHasta=2022-12-30&titulo=&idPrograma=0&ordenarPor=fecha&ordenarAsc=0&desde=0&tomar=1000&ingles=0' \
+  --compressed
